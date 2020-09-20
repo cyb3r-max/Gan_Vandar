@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gan Vandar</string>
+
+    <string-array name="UserType">
+        <item>General</item>
+        <item>Author</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="startpage_fragment1">Knowledge is Power</string>
+    <string name="startpage_fragment2">Learn what you want to know about.</string>
+
+    <string name="fragment1_quote">The more you read, the more you know.
+    The more you know, the smarter you grow. The smarter you grow, the stronger your
+    voice, when speaking your mind or making your choice.</string>
+    <string name="fragment2_quote">Learn ASP.net, Java framework, C, Python, C# and many more from here.</string>
+
+
+</resources>

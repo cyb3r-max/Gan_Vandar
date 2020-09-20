@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_edit_text_box"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:padding="@dimen/CommonPadding"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_edit_text_box"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/CommonPadding"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_edit_text_box"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/CommonPadding"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_edit_text_box"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="@dimen/CommonPadding"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_edit_text_box"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="@dimen/CommonPadding"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select User Type"
+            android:layout_marginLeft="15dp"/>
+
+
+
+        <Spinner
+            android:id="@+id/spr_UserType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:spinnerMode="dialog"
+            android:autofillHints="Select User Type"
+            />
+
+        <Button
+            android:id="@+id/btnSignUP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_sign_in_btn"/>
+    </LinearLayout>
+
+
+
+</ScrollView>
