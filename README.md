@@ -11,7 +11,7 @@ This was my final project when I was completeing my course on Android app devleo
 <td><img src="https://user-images.githubusercontent.com/57865985/190491388-48431ddb-5ff9-47d9-b4de-06612a92bca4.png" width=180 height=320></td>
 </tr>
 <tr>
-<td><p>Welcome Page</p></td>
+<td><p>Welcome Page with Fragment</p></td>
 <td><p>Sign Up Page</p></td>
 <td><p>Sign In Page</p></td>
 <td><p>Topic List</p></td>
