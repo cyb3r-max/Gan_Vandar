@@ -9,13 +9,16 @@ A fuctional app where user can sign up and log in to their account. User will se
 <td><img src="https://user-images.githubusercontent.com/57865985/190491378-50ce88b6-aba5-4b9f-a60d-dcd3396e83d9.png" width=180 height=320></td>
 </tr>
 <tr>
+  <td><p>Welcome Page with Fragment</p></td>
+<td><p>Sign Up Page</p></td>
+<td><p>Sign In Page</p></td>
+  </tr>
+<tr>
 <td><img src="https://user-images.githubusercontent.com/57865985/190491348-f8a57655-8da6-4836-a73b-93aaba09ec0a.png" width=180 height=320></td>
 <td><img src="https://user-images.githubusercontent.com/57865985/190491388-48431ddb-5ff9-47d9-b4de-06612a92bca4.png" width=180 height=320></td>
 </tr>
 <tr>
-<td><p>Welcome Page with Fragment</p></td>
-<td><p>Sign Up Page</p></td>
-<td><p>Sign In Page</p></td>
+
 <td><p>Topic List</p></td>
 <td><p>Article List</p></td>
 </tr>
