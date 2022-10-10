@@ -1,5 +1,5 @@
 # Gan_Vandar
-This was my final project when I was completeing my course on Android app devleopment from CodersTrust BD. <br>
+A fuctional app where user can sign up and log in to their account. User will see article list and can read blogs. The API was provided by the mentor. <br>
 <table>
 <tr>
 <td><img src="https://user-images.githubusercontent.com/57865985/190491358-84cb8f2e-9114-4574-bf88-b85856b1a80d.png" width=180 height=320></td>
